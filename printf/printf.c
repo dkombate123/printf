@@ -56,20 +56,3 @@ int _printf(const char *format, ...)
 	va_end(args);
 	return (count);
 }
-/**
- * main - Entry point
- *
- * Return: Always 0
- */
-int main(void)
-{
-	int count;
-
-	count = _printf("Character: %c\n", 'c');
-	printf("Characters printed: %d\n", count);
-	count = _printf("String: %s\n", "Hello, World!");
-	printf("Characters printed: %d\n", count);
-	count = _printf("Percent sign: %%\n");
-	printf("Characters printed: %d\n", count);
-	return (0);
-}
