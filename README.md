@@ -1,2 +1,1 @@
-# printf
-Printf project in langage C.  That code should work like printf in langage C
+ My read me for for projet printf
